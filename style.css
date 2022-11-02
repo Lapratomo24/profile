@@ -1,0 +1,102 @@
+body {
+  background-color: #F9FAFC;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+  line-height: 100px;
+  margin-bottom: 0;
+}
+
+.header {
+  width: 50%;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.red-text {
+  color: #800000;
+}
+
+#main-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.introduction {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.socials ul,
+.projects ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
+  gap: 20px;
+}
+
+.projects {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+}
+
+#btn {
+  border: 1px solid #4d4d4d;
+  padding: 10px;
+  background-color: #800000;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+#btn:hover {
+  opacity: 0.8;
+  transition: ;
+}
+
+.socials {
+  color: #800;
+  font-size: 25px;
+}
+
+.socials:hover {
+  color: gold;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  h1 {
+    font-size: 25px;
+  }
+  .introduction p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .projects ul {
+    flex-direction: column;
+  }
+  .introduction {
+    text-align: justify;
+    width: 70%
+  }
+  .introduction h3 {
+    text-align: center;
+  }
+  .projects {
+    width: 70%;
+  }
+}
